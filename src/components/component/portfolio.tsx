@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { JSX, SVGProps } from "react";
@@ -85,10 +86,12 @@ export function Portfolio() {
                 </div>
               </div>
               <div className="flex justify-center">
-                <img
+                <Image
                   src="/images/profile.jpg"
                   alt="Jerry Huynh"
                   className="w-64 h-64 lg:w-96 lg:h-96 rounded-full"
+                  width={500}
+                  height={300}
                 />
               </div>
             </div>
@@ -162,10 +165,12 @@ export function Portfolio() {
               <Card className="py-4">
                 <div className="flex items-center">
                   <div className="p-4 flex-shrink-0">
-                    <img
+                    <Image
                       src="/images/project1.png"
                       alt="TrackMaster CRUD"
                       className="w-40 h-40 lg:w-60 lg:h-60 rounded-full border-2 border-gray-300"
+                      width={500}
+                      height={300}
                     />
                   </div>
                   <CardContent className="p-4">
@@ -228,10 +233,12 @@ export function Portfolio() {
               <Card className="py-4">
                 <div className="flex items-center space-x-4">
                   <div className="p-4 flex-shrink-0">
-                    <img
+                    <Image
                       src="/images/project2.png"
                       alt="Project 2"
                       className="w-40 h-40 lg:w-60 lg:h-60 rounded-full border-2 border-gray-300"
+                      width={500}
+                      height={300}
                     />
                   </div>
                   <CardContent className="p-4">
@@ -284,10 +291,12 @@ export function Portfolio() {
               <Card className="py-4">
                 <div className="flex items-center">
                   <div className="p-4 flex-shrink-0">
-                    <img
+                    <Image
                       src="/images/project3.png"
                       alt="Project 2"
                       className="w-40 h-40 lg:w-60 lg:h-60 rounded-full border-2 border-gray-300"
+                      width={500}
+                      height={300}
                     />
                   </div>
                   <CardContent className="p-4">
@@ -335,10 +344,12 @@ export function Portfolio() {
               <Card className="py-4">
                 <div className="flex items-center">
                   <div className="p-4 flex-shrink-0">
-                    <img
+                    <Image
                       src="/placeholder.svg"
                       alt="Project 2"
                       className="w-40 h-40 lg:w-60 lg:h-60 rounded-full border-2 border-gray-300"
+                      width={500}
+                      height={300}
                     />
                   </div>
                   <CardContent className="p-4">
